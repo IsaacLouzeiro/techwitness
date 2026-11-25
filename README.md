@@ -1,7 +1,9 @@
 # techwitness
 
+[![PyPI](https://img.shields.io/pypi/v/techwitness)](https://pypi.org/project/techwitness/)
+[![Python](https://img.shields.io/pypi/pyversions/techwitness)](https://pypi.org/project/techwitness/)
 [![Tests](https://github.com/IsaacLouzeiro/techwitness/actions/workflows/tests.yml/badge.svg)](https://github.com/IsaacLouzeiro/techwitness/actions/workflows/tests.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/IsaacLouzeiro/techwitness/blob/main/LICENSE)
 
 Identifies the technologies behind a website, with versions and **the evidence for each one**, straight in the terminal. Python standard library only.
 
@@ -22,7 +24,7 @@ Identifies the technologies behind a website, with versions and **the evidence f
 Requires Python 3.10+.
 
 ```bash
-pipx install git+https://github.com/IsaacLouzeiro/techwitness.git
+pipx install techwitness      # or: pip install techwitness
 ```
 
 Or from source, with nothing to install:
@@ -86,7 +88,7 @@ Limitations: pages are not rendered in a browser, so what only appears after Jav
 
 ## Adding a technology
 
-Signatures are in [`techwitness/signatures.py`](techwitness/signatures.py); the fields are described at the top of the file:
+Signatures are in [`techwitness/signatures.py`](https://github.com/IsaacLouzeiro/techwitness/blob/main/techwitness/signatures.py); the fields are described at the top of the file:
 
 ```python
 T("Ghost", "CMS", implies=["Node.js"], meta={"generator": r"^Ghost ?([\d.]+)?"})

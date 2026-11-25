@@ -33,6 +33,7 @@ techwitness = "techwitness.cli:main"
 [project.urls]
 Homepage = "https://github.com/IsaacLouzeiro/techwitness"
 Issues = "https://github.com/IsaacLouzeiro/techwitness/issues"
+Changelog = "https://github.com/IsaacLouzeiro/techwitness/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["techwitness"]
